@@ -1,0 +1,150 @@
+body{
+    background: url(../assets/background.png);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+header{
+    .desktop{
+        margin-top: 70px;
+        margin-bottom: 70px;
+        h1{
+            color: #ffffff;
+            font-size: 64px;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+        p{
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 24px;
+        }
+        .btn-primary{
+            background-color: #F66B0E;
+            color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 24px;
+
+            &:hover{
+                background-color: #f78c44;
+            }
+        }
+    }
+}
+
+.set{
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+    .set-radio{
+        .col-radio{
+            margin-top: 40px;
+        }
+    }
+
+    .timer{
+        margin-top: 40px;
+
+        select{
+            background: transparent;
+            color: #ffffff;
+
+            option{
+                color: #000000;
+            }
+        }
+    }
+    .button-confirm{
+        margin-top: 40px;
+        .btn-primary {
+            background-color: #F66B0E;
+            color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 24px;
+    
+            &:hover {
+                background-color: #f78c44;
+            }
+        }
+    }
+}
+
+.start{
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+    .atas{
+        margin-bottom: 40px;
+
+        #time, #mode{
+            font-weight: 500;
+            font-size: 24px;
+        }
+
+        #mode{
+            margin-top: 24px;
+        }
+    }
+
+    .bawah{
+
+        .lamp{
+            margin-bottom: 24px;
+        }
+
+        .btn-outline-primary{
+            height: 88px;
+            width: 88px;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+            border-radius: 100%;
+            font-size: 32px;
+
+            &:hover{
+                background-color: #f78c44;
+            }
+        }
+
+        h3{
+            font-weight: 500;
+            font-size: 24px;
+        }
+
+    }
+
+    .btn-primary{
+        margin-top: 24px;
+        background-color: #F66B0E;
+        color: #ffffff;
+        border: none;
+        border-radius: 8px;
+        padding: 12px 24px;
+
+        &:hover{
+            background-color: #f78c44;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    header{
+        text-align: center;
+
+        h1{
+            font-size: 24px !important;
+            margin-bottom: 16px !important;
+        }
+        p{
+            font-size: 16px !important;
+            margin-bottom: 24px !important;
+        }
+        .btn-primary{
+            font-size: 14px;
+        }
+    }
+}

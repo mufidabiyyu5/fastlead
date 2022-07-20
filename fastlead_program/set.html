@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="container set">
+        <div class="container webcam">
+            <!-- Untuk integrasi kamera -->
+            <img src="assets/kotak.png" alt="untuk kamera" class="img-fluid">
+            <!-- <div class="video-outer">
+                <video id="video" height="100%" width="100%" autoplay></video>
+            </div>
+            
+            <div class="webcam-start-stop">
+                <a href="#!" class="btn-start" onclick="start()">Start</a>
+                <a href="#!" class="btn-stop" onclick="StopWebCam()">Stop</a>
+            </div> -->
+        </div>
+        <div class="row set-radio">
+            <div class="col-lg-6 col-radio">
+                <h2>Camera</h2>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="radioCamera" id="inlineRadio1" value="On">
+                    <label class="form-check-label" for="inlineRadio1">On</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="radioCamera" id="inlineRadio2" value="Off">
+                    <label class="form-check-label" for="inlineRadio2">Off</label>
+                </div>
+            </div>
+            <div class="col-lg-6 col-radio">
+                <h2>Mode</h2>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="radioMode" id="inlineRadio1" value="Manual">
+                    <label class="form-check-label" for="inlineRadio1">Manual</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="radioMode" id="inlineRadio2" value="Otomatis">
+                    <label class="form-check-label" for="inlineRadio2">Otomatis</label>
+                </div>
+            </div>
+        </div>
+        <div class="timer">
+            <h2>Timer</h2>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Pilih Durasi</option>
+                <option value="1">1 : 00 (satu menit)</option>
+                <option value="2">2 : 00 (dua menit)</option>
+                <option value="3">3 : 00 (tiga menit)</option>
+            </select>
+        </div>
+        <div class="d-grid gap-2 button-confirm">
+            <a class="btn btn-primary" href="start.html">Mulai Test <img src="assets/arrow-right.svg" alt="arrow-right"></a>
+        </div>
+    </section>
+    
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

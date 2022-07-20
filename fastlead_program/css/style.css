@@ -1,0 +1,146 @@
+body {
+  background: url(../assets/background.png);
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+}
+
+header .desktop {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+header .desktop h1 {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+header .desktop p {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+header .desktop .btn-primary {
+  background-color: #F66B0E;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+}
+
+header .desktop .btn-primary:hover {
+  background-color: #f78c44;
+}
+
+.set {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.set .set-radio .col-radio {
+  margin-top: 40px;
+}
+
+.set .timer {
+  margin-top: 40px;
+}
+
+.set .timer select {
+  background: transparent;
+  color: #ffffff;
+}
+
+.set .timer select option {
+  color: #000000;
+}
+
+.set .button-confirm {
+  margin-top: 40px;
+}
+
+.set .button-confirm .btn-primary {
+  background-color: #F66B0E;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+}
+
+.set .button-confirm .btn-primary:hover {
+  background-color: #f78c44;
+}
+
+.start {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.start .atas {
+  margin-bottom: 40px;
+}
+
+.start .atas #time, .start .atas #mode {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.start .atas #mode {
+  margin-top: 24px;
+}
+
+.start .bawah .lamp {
+  margin-bottom: 24px;
+}
+
+.start .bawah .btn-outline-primary {
+  height: 88px;
+  width: 88px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+  font-size: 32px;
+}
+
+.start .bawah .btn-outline-primary:hover {
+  background-color: #f78c44;
+}
+
+.start .bawah h3 {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.start .btn-primary {
+  margin-top: 24px;
+  background-color: #F66B0E;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+}
+
+.start .btn-primary:hover {
+  background-color: #f78c44;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    text-align: center;
+  }
+  header h1 {
+    font-size: 24px !important;
+    margin-bottom: 16px !important;
+  }
+  header p {
+    font-size: 16px !important;
+    margin-bottom: 24px !important;
+  }
+  header .btn-primary {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
